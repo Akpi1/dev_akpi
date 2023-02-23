@@ -25,9 +25,6 @@
         display: flex;
         justify-content: space-between ;
     }
-    .classContainer{
-        height:88%;
-    }
     .hamburger{
         display: flex;
         flex-direction: column;
@@ -168,6 +165,18 @@
     height: auto;
     padding-top: 2rem;
    } 
+}
+@media  screen and (max-width:480px) {
+    .classContainer{
+        height:88%;
+    }
+    h1 {
+    font-size: 23px;
+    margin-top: 2rem;
+    font-family: monospace;
+    color: white;
+    font-weight: bold;
+}
 }
 
 /* ============ icon styles ===================== */
