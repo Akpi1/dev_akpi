@@ -177,6 +177,9 @@
     color: white;
     font-weight: bold;
 }
+    #livePrices {
+    margin-top: 2rem;
+   }
 }
 
 /* ============ icon styles ===================== */
