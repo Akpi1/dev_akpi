@@ -25,6 +25,9 @@
         display: flex;
         justify-content: space-between ;
     }
+    .classContainer{
+        height:88%;
+    }
     .hamburger{
         display: flex;
         flex-direction: column;
