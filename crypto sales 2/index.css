@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+@media  screen and (max-width:480px) {
+    body{
+        width: 100vw;
+        /* background-color:#27292f; */
+        background-color: black;
+        position: relative;
+        overflow-x: hidden;
+        font-family: 'Montserrat', sans-serif;
+        height:auto;
+    }
+    /* ================== Header =================== */
+    header{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height:12vh;
+    }
+    .headerContainer{
+        display: flex;
+        justify-content: space-between ;
+    }
+    .hamburger{
+        display: flex;
+        flex-direction: column;
+        gap: 6px;
+        cursor: pointer;
+    }
+    .qrim{
+        display: inline-block;
+        color:white;
+        font-family:monospace;
+        font-size:1rem;
+    }
+    .qrim h2{
+        display: inline;
+    }
+    .Q{
+       font-weight: bold;
+       color: #f3ef52;
+       font-size: 1.5em;
+       font-style: normal;
+    }
+
+    /* ================ small navbar =================== */
+    .sdNavContainer{
+        display:flex;
+        justify-content: flex-start;
+        align-items: center;
+        padding-top: 4rem;
+        flex-direction:column; 
+        font-size: 25px;
+        gap: 1rem;
+        height: 100%;
+        border:0 1px solid #f3ef52;
+        box-shadow: 0 0 7px #f3ef52;
+        background-color: #27292f;
+        /* font-family: monospace; */
+        display: none;
+       
+    }
+    .sdNav{
+        display:flex;
+        flex-direction:column;
+        justify-content: center;
+        align-items: center;
+        width: 100vw;
+        height: 20rem;
+        position: absolute;
+        color: white;
+    }
+    .socialIcon{
+        display: flex;
+        justify-content:space-around;
+        align-items: center;
+        gap: 5px;
+        height: 3rem;
+        width: 15rem;
+        font-size: 30px;
+        margin-top: 20px;
+    }
+    .socialIcon h3{
+        background-color: red;
+        width: 3rem;
+        padding: 10px;
+        text-align: center;
+        border-radius: 10px;
+       
+    }
+    .socials{
+        display:flex;
+        flex-direction:column;
+        justify-content: center;
+        align-items: center;
+    }
+    /* ======================================================== */
+    /* ========================================== */
+    section{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .container{
+        width: 88%;
+    }
+    section{
+        display: flex;
+    }
+    h1{
+        font-size: 27px;
+        margin-top: 2rem;
+        font-family: monospace; 
+        color: white;
+        font-weight: bold;
+    }
+    .welcomeParagraph{
+        height: 32vh;
+        overflow-y: hidden;
+    }
+    /* =================================================== */
+    #livePrices{
+        margin-top: 3rem;
+        border-top: 2px solid #bd7933;
+        border-radius: 19px 19px 0 0;
+        /* background-color: #141518; */
+        height: 32rem;
+    }
+    .livepriceContainer{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    button{
+        /* background-color: #f3ef52; */
+        background:none;
+        color: white;
+        border: none;
+        width: 10rem;
+        height: 3.5rem;
+        font-weight: bold;
+        font-size: 19px;
+        margin-top: 3rem;
+        cursor: pointer;
+        border: 2px solid white;
+    }
+    button:hover{
+        background: white;
+        color: black;
+    }
+    
+}
+
+
+/* =================================================== */
+
+@media screen and (max-height:900px){
+   #livePrices{
+    height: auto;
+    padding-top: 2rem;
+   } 
+}
+
+/* ============ icon styles ===================== */
